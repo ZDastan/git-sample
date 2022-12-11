@@ -9,6 +9,40 @@
 /* comment  */
 
   }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+  .header{
+  background-color: #555;
+  padding: 10px 16px;
+  color: #f1f1f1;
+  }  
+
+      .content{
+        padding: 16px;
+      }
+    
+      div {
+        display: block;
+      }
+      .sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    
+      .sticky +.content{
+        padding-top: 102px;
+      }
+
+
   img{
     width: 200px;
     height: 200px;
