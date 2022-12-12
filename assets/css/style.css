@@ -181,7 +181,7 @@ footer-logo{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 }
 
 .txtb{
@@ -230,4 +230,9 @@ footer-logo{
     margin: 0;
     width: 0;margin-top: 20px;
   }
+}
+.content-section{
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
 }
