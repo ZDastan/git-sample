@@ -57,12 +57,60 @@
     color: #c0d96f;
   
   }
+.image img{
+  width: 100%;
+  height: px;
+}
+.home, .about, .contact{
+  height: 720px;
+  margin-top: 70px;
+  border: 1px solid black;
+}
 
+.about, .contact{
+  margin-top: o;
+}
 body {
   margin:0px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.contact-box{
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0#999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+form{
+  margin: 35px;
+}
+.input-field{
+  width: 400px;
+  height:40px ;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right:10px ;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.textarea-field{
+  height: 150px;
+  padding-top: 10px;
+
+}
+.btn{
+  border-radius: 20px;
+  color: #fff;
+  margin-top:18px;
+  padding: 10px;
+  background-color:#47c35a ;
+  font-size: 12px;
+  cursor: pointer;
+}
   .header{
     position: fixed;
     width: 100%;
@@ -89,15 +137,6 @@ body {
         padding-top: 102px;
       }
 
-
-  img{
-    width: 200px;
-    height: 200px;
-    background-color: darkgray;
-    margin: 18px;
-    padding:10px ;
-    border: 9px;
-  }
   #email {
     background-color: goldenrod;
   }
